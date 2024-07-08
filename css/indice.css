@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+    color: rgb(14, 10, 10);
+    background-color: rgb(109, 236, 236);
+}
+.lista p{
+    text-align: center;
+    margin: 5px;
+    margin-left: 770px;
+    border:1px solid rgb(65, 23, 218);
+    border-radius: 5px;
+    width: 150px;
+   padding: 10px;
+   box-shadow: 2px 2px 3px rgb(55, 11, 214);
+}
+
+.lista a{
+    text-decoration: none;
+}
+
+.lista a:hover{
+    color: rgb(76, 8, 201);
+    background-color: rgb(199, 198, 198);
+    opacity: 0.5;
+}
+
+.lista p:hover{
+    background-color: rgb(199, 198, 198);
+    opacity: 0.5;
+}

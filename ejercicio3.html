@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores en CSS - Ejemplo 3</title>
+</head>
+<style>
+    .hex-color {
+    background-color: #68bb6b; /* Color verde */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 10px;
+    }
+    .overlay:hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background-color: rgba(0,0,0,0.2);
+        display: flex;
+    }
+</style>
+<body>
+    <div class="hex-color">
+        Este es un div con fondo verde (#4CAF50) y texto blanco (#FFFFFF).
+    </div>
+</body>
+</html>

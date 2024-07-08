@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opacidad css- opacidad03</title>
+
+    <style>
+        .container {
+        position: relative;
+        width: 400px;
+        height: 300px;
+        background: url('https://img.cdn-pictorem.com/uploads/collection/E/EF5MND10RMF/600_Coolbits-Art_monkey13.jpg') center/cover;
+        }
+        .overlay{
+        
+        
+        background-color: rgba(236, 234, 243, 0.5); /* Fondo semi-transparente */
+      
+        }
+        .text{
+            color:blanchedalmond
+            font-size:  24px;
+            text-align:CENTER;
+            opacity: 0.8 ; /*opaciadad al 80%*/
+            transition: 3s ; 
+        }
+        .overlay:hover{
+            background-color: rgba(15, 110, 218, 0.2);
+        }
+        .text:hover {
+        
+        opacity: 0.8; /* Opacidad al 20% */
+        }
+        </style>
+        </head>
+        <body>
+        <div class="container">
+        <div class="overlay">
+        <div class="text">ONE PIECE LUFFY</div>
+            </div>
+        </div>
+     </body>
+ </html>
